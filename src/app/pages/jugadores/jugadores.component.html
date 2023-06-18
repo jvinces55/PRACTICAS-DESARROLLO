@@ -9,7 +9,7 @@
 
   <input type="tel" [(ngModel)] ="datos_formulario.Edad" nz-input placeholder="Edad">
 
-  <input type="tel" [(ngModel)] ="datos_formulario.Equipo" nz-input placeholder="Equipo">
+  <input type="text" [(ngModel)] ="datos_formulario.Equipo" nz-input placeholder="Equipo">
 
 
   <button [disabled]="!datos_formulario.Nombres.length || !datos_formulario.Apellidos.length || !datos_formulario.Ciudad.length || !datos_formulario.Edad.length || !datos_formulario.Equipo.length"
